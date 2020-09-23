@@ -1,0 +1,290 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+}
+
+body {
+  display: block;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+}
+
+.logo {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.name a {
+  color: #2f3336;
+  font-family: "Playfair Display", serif;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.title a {
+  color: #989177;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 200;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+#portfolio {
+  margin-top: 70px;
+}
+
+#more-pics {
+  display: none;
+}
+
+.thumbnail {
+  padding-bottom: 15px;
+}
+
+.lit-title {
+  color: #989177;
+  font-family: "Heebo", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.sec-title {
+  margin-bottom: 50px;
+  color: #2f3336;
+  font-family: "Heebo", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+#btn-more {
+  background-color: #2f3336;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 0.8;
+  width: 170px;
+  padding: 23px 15px;
+  text-decoration: none;
+  border-radius: 30px;
+  margin: auto;
+}
+
+#btn-more:hover {
+  background-color: #989177;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.button-more {
+  margin-top: 30px;
+}
+
+.navbar {
+  margin-top: 40px;
+}
+
+.navbar ul {
+  border-top: 1px solid #2f3336;
+  border-bottom: 1px solid #2f3336;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.navbar ul li {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.navbar ul li a {
+  color: #2f3336;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.navbar ul li a:hover {
+  color: #989177;
+}
+
+@media screen and (max-width: 1200px) {
+  .navbar {
+    text-align: center;
+  }
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline;
+}
+
+#about {
+  margin-top: 80px;
+}
+
+#subscribe {
+  margin-top: 80px;
+}
+
+.abt {
+  text-align: center;
+  color: #2f3336;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+.subscribe-form {
+  text-align: center;
+}
+
+.email {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 0.8;
+  max-width: 450px;
+  padding: 20px 15px;
+  text-decoration: none;
+  border-radius: 30px;
+  margin-top: 30px;
+  border-color: #2f3336;
+  outline: none;
+}
+
+@media screen and (min-width: 600px) {
+  .email {
+    width: 450px;
+  }
+  .space {
+    width: 50px;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .email {
+    width: 80%;
+  }
+}
+
+.sub-btn {
+  background-color: #2f3336;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 0.8;
+  width: 200px;
+  padding: 25px 15px;
+  text-decoration: none;
+  border-radius: 30px;
+  margin-top: 30px;
+  border: none;
+}
+
+.sub-btn:hover {
+  background-color: #989177;
+}
+
+#subscribe-success {
+  display: none;
+  text-align: center;
+  font-family: "Heebo", sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #989177;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+footer {
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+footer p {
+  color: #2f3336;
+  font-family: "Heebo", sans-serif;
+  font-size: 1.5rem;
+}
+
+.footbord {
+  border-top: 1px solid #2f3336;
+  border-bottom: 1px solid #2f3336;
+  padding-top: 10px;
+}
+
+.footmid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact td {
+  padding-bottom: 20px;
+}
+
+.contact i {
+  padding-right: 15px;
+  color: #989177;
+}
+
+.social p {
+  text-align: right;
+}
+
+.social ul {
+  text-align: right;
+}
+
+.social a {
+  text-decoration: none;
+  color: #2f3336;
+}
+
+.social i {
+  color: #989177;
+}
+
+.copyright {
+  text-align: center;
+}
+
+.copyright a {
+  color: #2f3336;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,294 @@
+$mainf: 'Heebo', sans-serif;
+$logfname: 'Playfair Display', serif;
+$logf: 'Raleway', sans-serif;
+$color: #989177;
+$color2: #2f3336;
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+}
+
+body{
+    display: block;
+}
+
+
+.container{
+    width: 100%;
+    margin: auto;
+}
+
+.logo{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.name a{
+    color: $color2;
+    font-family: $logfname;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.title a{
+    color: $color;
+    font-family: $logf;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 200;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+#portfolio{
+    margin-top: 70px;
+}
+
+#more-pics{
+    display: none;
+}
+
+.thumbnail{
+    padding-bottom: 15px;
+}
+
+.lit-title{
+    color: $color;
+    font-family: $mainf;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.sec-title{
+    margin-bottom: 50px;
+    color: $color2;
+    font-family: $mainf;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#btn-more{
+    background-color: $color2;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 0.8;
+    width: 170px;
+    padding: 23px 15px;
+    text-decoration: none;
+    border-radius: 30px;
+    margin: auto;
+    &:hover {
+        background-color: $color;
+        text-decoration: none;
+        color:#ffffff;
+    }
+}
+
+.button-more{
+    margin-top: 30px;
+}
+
+.navbar{
+    margin-top: 40px;
+
+    ul{
+        border-top: 1px solid $color2;
+        border-bottom:1px solid $color2;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left:50px;
+        padding-right: 50px;
+        
+        li{
+            padding-left: 40px;
+            padding-right: 40px;
+
+            a{
+                color:$color2;
+                font-family: $logf;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-weight: 500;
+                font-size: 1.2rem;
+                &:hover {
+                    color: $color;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .navbar{
+        text-align: center;
+    }
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline;
+}
+
+#about{
+    margin-top: 80px;
+}
+
+#subscribe{
+    margin-top: 80px;
+}
+
+.abt{
+text-align: center;
+color:$color2;
+font-family: $logf;
+text-transform: uppercase;
+font-weight: 300;
+font-size: 2rem;
+}
+
+.subscribe-form{
+    text-align: center;
+}
+
+.email{
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 0.8;
+    max-width: 450px;
+    padding: 20px 15px;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-top: 30px;
+    border-color: $color2;
+    outline: none;
+}
+
+@media screen and (min-width: 600px) {
+    .email{
+        width: 450px;
+    }
+
+    .space{
+        width: 50px;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .email{
+        width: 80%;
+    }
+}    
+
+.sub-btn{
+    background-color: $color2;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 0.8;
+    width: 200px;
+    padding: 25px 15px;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-top: 30px;
+    border: none;
+    &:hover {
+        background-color: $color;
+    }
+}
+
+#subscribe-success{
+    display: none;
+    text-align: center;
+    font-family: $mainf;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: $color;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+footer{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    
+    p{
+        color: $color2;
+        font-family: $mainf;
+        font-size: 1.5rem;
+    }
+}
+
+.footbord{
+    border-top: 1px solid $color2;
+    border-bottom:1px solid $color2;
+    padding-top: 10px;
+}
+
+.footmid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact{
+
+    td{
+        padding-bottom: 20px;
+    }
+
+    i{
+        padding-right: 15px;
+        color: $color;
+    }
+}
+
+.social{
+
+    p{
+        text-align: right;
+    }
+
+    ul{
+        text-align: right;
+    }
+
+    a{
+        text-decoration: none;
+        color: $color2;
+    }
+
+    i{
+        color: $color;
+    }
+}
+
+.copyright{
+    text-align: center;
+
+    a{
+        color: $color2;
+    }
+}
