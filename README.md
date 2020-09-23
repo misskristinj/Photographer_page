@@ -1,2 +1,2 @@
 # photographer_page
-python -m flask run
+To run the page, use  python -m flask run
