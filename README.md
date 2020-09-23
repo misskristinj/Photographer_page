@@ -1,2 +1,2 @@
-# Photographer_page
+# photographer_page
 python -m flask run
